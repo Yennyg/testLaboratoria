@@ -1,6 +1,3 @@
-alert("Bienvenidas a nuestro primera trivia de animales :D");
-
-var name = prompt("Aprendemos jugando ingresa tu nombre");
 
 alert("responde las preguntas");
 
@@ -26,7 +23,7 @@ function activar() {
 
     }
 
-    if (preguntaTres == "Caballo") {
+    if (preguntaTres == "Gato") {
 
         correcta++;
 
