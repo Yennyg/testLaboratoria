@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="animales.css">
+    <title>Trivia de animales</title>
+</head>
+
+
+
+<body>
+    <h1>Trivia juegos de animales</h1>
+
+    <!--se crea un formulario-->
+    <form id="animales" name="animales">
+
+        <!--primera pregunta-->
+        <p>Que animal es vertebrado?</p>
+        <input type="radio"  name="preguntaUno" value="Perro"/>Perro<br>
+        <input type="radio"  name="preguntaUno" value="Mariposa"/>Mariposa<br>
+        <input type="radio"  name="preguntaUno" value="Araña"/>Araña<br>
+        
+        <!--segunda pregunta-->
+        <p>¿Que animal empieza con O?</p>
+        <input type="radio"  name="preguntaDos" value="Perro"/>Perro<br>
+        <input type="radio"  name="preguntaDos" value="Oso"/>Oso<br>
+        <input type="radio"  name="preguntaDos" value="Gato"/>Gato<br>
+        
+
+        <!--tercera pregunta-->
+        <p>¿Que animal es domestico?</p>
+        <input type="radio"  name="preguntaTres" value="hipopotamo"/>hipopotamo<br>
+        <input type="radio"  name="preguntaTres" value="Gato"/>Gato<br>
+        <input type="radio"  name="preguntaTres" value="Caballo"/>Caballo<br>
+
+        <!--boton de evento-->
+        <input id="button" type="button" value="¡listo!" onclick="activar();"/>
+
+        <div id="envio">
+            <p id="mensajes"></p>
+            <p id="respuestas"></p>
+        </div>
+
+    </form>
+
+    <script src="aplicacion.js"></script>
+</body>
+
+</html>
